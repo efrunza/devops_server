@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "esnext",			
+		"outDir": "./public",
+		"noLib": false,
+		"sourceMap": true,
+		"watch": true,
+		"noImplicitAny": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"baseUrl": "./",
+		"skipLibCheck": true
+	},
+	"include": [
+		"../public/**/*.ts",
+		"app.ts"
+	],
+	"exclude": [
+		"/node_modules"
+	]
+
+}
